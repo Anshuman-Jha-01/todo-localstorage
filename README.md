@@ -13,7 +13,6 @@ The **Todo List Application** is a web-based task management tool that allows us
 - [Usage](#usage)
 - [Components](#components)
 - [Project Structure](#project-structure)
-- [License](#license)
 
 ---
 
