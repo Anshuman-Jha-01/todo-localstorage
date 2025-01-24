@@ -1,0 +1,113 @@
+/* Set background color of the entire body */
+body {
+    background-color: antiquewhite;
+}
+
+/* Heading style */
+h1{
+    text-align: center;
+    color: brown;
+    margin-top: 0;
+}
+
+/* Style the main div */
+.container {
+    background-color: #f1aa84;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px !important;
+    box-shadow: 2px 2px 10px rgb(250, 171, 114);
+}
+
+/* Style the input field */
+input {
+    padding: 6px 2px;
+    min-width: 250px;
+    font-size: 18px;
+    background-color: #DAD3BE;
+    border-radius: 5px;
+    border: 2px solid black;
+    &:hover {
+        box-shadow: 0 0 2px 2px rgb(215, 118, 33) ;
+    }
+}
+
+/* Style the select element */
+select {
+    padding: 6px 2px;
+    min-width: 100px;
+    font-size: 18px;
+    background-color: #DAD3BE;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0 0 2px 2px rgb(239, 141, 55) ;
+    }
+}
+
+/* Style the Add button */
+.add {
+    padding: 8px 24px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 2px 2px 5px black;
+    }
+}
+
+
+
+/* Style the list items */
+li {
+    margin: 10px 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 500;
+    &:hover {
+        color: #e66c2f;
+        cursor: pointer;
+    }
+}
+
+/* Dropdown Styling */
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown button{
+    padding: 8px 24px;
+    background-color: #6B8A7A;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 2px 2px 5px black;
+    }
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(229, 179, 70);
+    min-width: 150px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: #DAD3BE;
+}

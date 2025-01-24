@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        
+        <!-- Task Input and Category Selection -->
+        <input type="text" placeholder="Enter task" aria-label="Task input">
+        <select name="category" aria-label="Category selection">
+            <option value="Category" selected>Category</option>
+            <option value="Personal">Personal</option>
+            <option value="Work">Work</option>
+            <option value="Shopping">Shopping</option>
+            <option value="Coding">Coding</option>
+            <option value="Health">Health</option>
+        </select>
+        <button class="add">Add Task</button> <br> <br> 
+
+        <!-- Category Lists -->
+        <div class="dropdown">
+            <button>Personal</button>
+            <div class="content">
+                <ol class="Personal"></ol>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="dropdown">
+            <button>Work</button>
+            <div class="content">
+                <ol class="Work"></ol>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="dropdown">
+            <button>Shopping</button>
+            <div class="content">
+                <ol class="Shopping"></ol>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="dropdown">
+            <button>Coding</button>
+            <div class="content">
+                <ol class="Coding"></ol>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="dropdown">
+            <button>Health</button>
+            <div class="content">
+                <ol class="Health"></ol>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
